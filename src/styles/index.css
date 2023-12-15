@@ -1,12 +1,67 @@
+* {
+  box-sizing: border-box;
+}
 
-/* 
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.light-red {
+  background-color: #000000;
+  border-radius: 100%;
+  border-color: #1f1f1f;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5px
+}
 
-*/
+.light-yellow {
+  background-color: #000000;
+  border-radius: 100%;
+  border-color: #1f1f1f;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5px
+}
+.light-green {
+  background-color: #000000;
+  border-radius: 100%;
+  border-color: #1f1f1f;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5px
+}
+.light-red.selected {
+  background-color: #ff1900;
+  box-shadow: 0px 0px 70px 10px #ff7768;
+}
+.light-yellow.selected {
+  background-color: #fbff00;
+  box-shadow: 0px 0px 70px 10px #ffe374;
+}
+.light-green.selected {
+  background-color: #21bb61;
+  box-shadow: 0px 0px 70px 10px #7dffb3
+}
+
+.container1 {
+  position: sticky;
+  margin-left: 75px;
+  height: 250px;
+  width: 10px;
+}
